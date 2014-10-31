@@ -20,6 +20,7 @@ h1 { font-family: 'Lato', sans-serif, Arial; font-weight: 700;
 			-moz-border-radius:3px;
 			-webkit-border-radius:3px;
 			border-radius:3px;
+		
 			border:1px solid #124d77;
 			display:inline-block;
 			cursor:pointer;
@@ -47,7 +48,7 @@ h1 { font-family: 'Lato', sans-serif, Arial; font-weight: 700;
 
 #contenedor{
 
-	margin-left: 25%;
+	margin-left: 30%;
 	width: 800px;
 	height: 600px;
   /* background-color: yellow; */
@@ -60,23 +61,48 @@ h1 { font-family: 'Lato', sans-serif, Arial; font-weight: 700;
 	/* background-color: red;*/
 }
 
-#botones{
-	margin-left: 19%;
-}
-#izquierda{
-	float:left;
-	clear:left;
-	/* background-color: green;*/
-}
-#derecha{
-	margin-left: 4%;
-	float:left;
-	clear:right;
-	/* background-color: blue;*/
-}
 
-/*#loginbtn{
-	text-align: center;
+#formlogin{
+	margin-left: 10%;
+	text-align: right;
 	float:left;
 	clear: both;
+}
+
+#ingbtn{
+
+	text-align: center;
+	float:left;
+	clear:both;
+	margin-left: 22%;
+}
+
+input{
+-moz-border-radius: 3px; /* Con esto hacemos un redondeo en los bordes para que no se mire cuadrado */
+background-color: #DDEDF4; /* Con esto indicamos el color de fondo */
+/*border: 1px solid #DDEDF4; /* Con esto indicamos el size del borde, el estilo (thin, solid, etc) y el color del borde */
+/*color: #DDEDF4; /* Con esto indicamos el color del contenido */
+font-family: Verdana; /* Con esto indicamos la fuente de letra */
+font-size: 10px; /* Con esto indicamos el size de letra */
+margin: 3px; /* Con esto definimos el espacio afuera del borde */
+padding: 3px; /* Con esto definimos el espacio entre el borde */
+margin-bottom: 5px;
+width:300px;
+height:60px;
+text-align: center;
+font-size: 12px;
+color: #afe8f6;
+
+}
+
+input::-webkit-input-placeholder {
+    color:  #31698a;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+
+}
+/*input::-moz-placeholder {
+    color:  #31698a;
+    font-weight: bold;
 }
